@@ -1,0 +1,119 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    },
+    "products": [
+        {
+            "id": 1,
+            "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+            "name": "Product 1",
+            "price": 10.99,
+            "isActive": true,
+            "categoryId": "1"
+        },
+        {
+            "id": 2,
+            "image": "https://images.unsplash.com/photo-1547496502-affa22d38842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 2",
+            "price": 15.49,
+            "isActive": true,
+            "categoryId": "2"
+        },
+        {
+            "id": 3,
+            "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 3",
+            "price": 8.79,
+            "isActive": true,
+            "categoryId": "1"
+        },
+        {
+            "id": 4,
+            "image": "https://images.unsplash.com/photo-1515942400420-2b98fed1f515?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 4",
+            "price": 12.99,
+            "isActive": false,
+            "categoryId": "3"
+        },
+        {
+            "id": 5,
+            "image": "https://images.unsplash.com/photo-1543353071-c953d88f7033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 5",
+            "price": 9.99,
+            "isActive": true,
+            "categoryId": "2"
+        },
+        {
+            "id": 6,
+            "image": "https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 6",
+            "price": 11.49,
+            "isActive": true,
+            "categoryId": "1"
+        },
+        {
+            "id": 7,
+            "image": "https://images.unsplash.com/photo-1580013759032-c96505e24c1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 7",
+            "price": 7.99,
+            "isActive": false,
+            "categoryId": "3"
+        },
+        {
+            "id": 8,
+            "image": "https://images.unsplash.com/photo-1611599537845-1c7aca0091c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 8",
+            "price": 14.99,
+            "isActive": true,
+            "categoryId": "2"
+        },
+        {
+            "id": 9,
+            "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 9",
+            "price": 6.49,
+            "isActive": true,
+            "categoryId": "1"
+        },
+        {
+            "id": 10,
+            "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "name": "Product 10",
+            "price": 18.99,
+            "isActive": true,
+            "categoryId": "2"
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "Category One"
+        },
+        {
+            "id": "2",
+            "name": "Category Two"
+        },
+        {
+            "id": "3",
+            "name": "Category Three"
+        },
+        {
+            "id": "4",
+            "name": "Category Four"
+        }
+    ]
+}
